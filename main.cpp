@@ -87,9 +87,9 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 		// 描画処理
 		if (Enemy1->EnemyFlag == false)
 		{
-			DrawBox(0, 60, 60, 120, GetColor(255, 255, 255), true);
-			DrawBox(120, 60, 180, 120, GetColor(255, 255, 255), true);
-			DrawBox(240, 60, 300, 120, GetColor(255, 255, 255), true);
+			DrawBox(0, 60, 60, 120, GetColor(0, 255, 255), true);
+			DrawBox(120, 60, 180, 120, GetColor(0, 255, 255), true);
+			DrawBox(240, 60, 300, 120, GetColor(0, 255, 255), true);
 		}
 		//---------  ここまでにプログラムを記述  ---------//
 		// (ダブルバッファ)裏面
